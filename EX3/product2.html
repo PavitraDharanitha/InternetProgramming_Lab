@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chocolate & Ice Cream Shop</title>
+
+<style>
+body{
+    background-image:url("https://images.unsplash.com/photo-1563805042-7684c019e1cb");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align:center;
+    color:darkmagenta;
+    text-shadow:3px 3px 5px gray;
+}
+
+h2{
+    color:brown;
+}
+
+table{
+    width:80%;
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:purple;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid black;
+    text-align:center;
+    padding:10px;
+}
+
+img{
+    border-radius:10px;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+    font-weight:bold;
+}
+
+a:hover{
+    color:red;
+}
+
+#offer{
+    color:red;
+    font-size:22px;
+    font-weight:bold;
+    background:yellow;
+    width:60%;
+    padding:10px;
+}
+
+.featureBox{
+    width:70%;
+    background:white;
+    padding:20px;
+}
+
+ul{
+    display:inline-block;
+    text-align:left;
+}
+
+fieldset{
+    width:65%;
+    background:white;
+    border:3px solid purple;
+    padding:20px;
+}
+
+legend{
+    color:purple;
+    font-size:20px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:90%;
+    padding:8px;
+    font-size:16px;
+}
+
+input[type="radio"]{
+    width:auto;
+}
+
+input[type="submit"]{
+    width:130px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="reset"]{
+    width:130px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:darkgreen;
+}
+
+input[type="reset"]:hover{
+    background:darkred;
+}
+
+.videoBox{
+    width:70%;
+    background:white;
+    padding:20px;
+}
+
+#rating{
+    width:30%;
+    background:white;
+    padding:15px;
+}
+
+meter{
+    width:200px;
+}
+</style>
+
+</head>
+
+<body>
+
+<center>
+
+<h1>Chocolate & Ice Cream Shop</h1>
+
+<div id="offer">
+Special Offer: 20% OFF on Ice Cream Combo
+</div>
+
+<br>
+
+<a href="index.html">Home</a> |
+<a href="login.html">Login</a> |
+<a href="register.html">Register</a>
+
+<hr width="80%">
+
+<h2>Our Products</h2>
+
+<table>
+
+<tr>
+<th>Image</th>
+<th>Product</th>
+<th>Price</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>
+<img src="https://m.media-amazon.com/images/I/71w7ppkACUL.jpg"
+width="100" height="100">
+</td>
+<td>Dairy Milk</td>
+<td>₹50</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>
+<img src="https://carrefourbrfood.vtexassets.com/arquivos/ids/175832790/chocolate-kitkat-4-fingers-ao-leite-415g-1.jpg?v=638646893263500000"
+width="100" height="100">
+</td>
+<td>KitKat</td>
+<td>₹35</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>
+<img src="https://quickhomemaderecipes.com/wp-content/uploads/2024/03/Vanilla-ice-cream.jpg"
+width="100" height="100">
+</td>
+<td>Vanilla Ice Cream</td>
+<td>₹60</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>
+<img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371"
+width="100" height="100">
+</td>
+<td>Chocolate Ice Cream</td>
+<td>₹70</td>
+<td>Available</td>
+</tr>
+
+</table>
+
+<br>
+
+<div class="featureBox">
+
+<h2>Product Features</h2>
+
+<ul>
+<li>Premium Quality Chocolates</li>
+<li>Fresh Ice Cream</li>
+<li>Delicious Flavours</li>
+<li>100% Hygienic Packaging</li>
+<li>Fast Home Delivery</li>
+<li>Cash, UPI & Card Payment</li>
+</ul>
+
+</div>
+
+<br>
+
+<fieldset>
+
+<legend>Order Form</legend>
+
+<form>
+
+<label>Customer Name</label><br>
+<input type="text" placeholder="Enter your name" required>
+
+<br><br>
+
+<label>Email</label><br>
+<input type="email" placeholder="Enter your email" required>
+
+<br><br>
+
+<label>Phone Number</label><br>
+<input type="tel" placeholder="Enter phone number" required>
+
+<br><br>
+
+<label>Select Product</label><br>
+
+<select>
+<option>Dairy Milk</option>
+<option>KitKat</option>
+<option>Vanilla Ice Cream</option>
+<option>Chocolate Ice Cream</option>
+</select>
+
+<br><br>
+
+<label>Quantity</label><br>
+<input type="number" min="1" max="20">
+
+<br><br>
+
+<label>Delivery Date</label><br>
+<input type="date">
+
+<br><br>
+
+<label>Payment Method</label><br>
+
+<input type="radio" name="pay"> Cash
+<input type="radio" name="pay"> UPI
+<input type="radio" name="pay"> Card
+
+<br><br>
+
+<label>Delivery Address</label><br>
+
+<textarea rows="4"></textarea>
+
+<br><br>
+
+<input type="submit" value="Buy Now">
+<input type="reset" value="Clear">
+
+</form>
+
+</fieldset>
+
+<br>
+
+<div class="videoBox">
+
+<h2>Advertisement</h2>
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/ER764D8_2zU"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<br>
+
+<div id="rating">
+
+<h2>Customer Rating</h2>
+
+<meter value="4.8" min="0" max="5"></meter>
+
+<br><br>
+
+<b>4.8 / 5</b>
+
+</div>
+
+<br>
+
+<h3 style="color:purple;">
+Thank You For Visiting Our Shop!
+</h3>
+
+<a href="index.html">⬅ Back To Home</a>
+
+</center>
+
+</body>
+</html>

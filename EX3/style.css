@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://wallpapers.com/images/hd/light-color-on-white-background-yr5ibxag43cgksvp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: darkred;
+    text-shadow: 3px 3px 5px gray;
+    text-align: center;
+}
+
+h2{
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    color: purple;
+    text-align: center;
+}
+
+p{
+    font-size:18px;
+    text-align:center;
+}
+
+table{
+    width:70%;
+    border-collapse:collapse;
+    background:white;
+    margin:auto;
+}
+
+th{
+    background:orange;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid gray;
+    padding:15px;
+    text-align:center;
+}
+
+img{
+    border-radius:10px;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+    font-weight:bold;
+    padding:10px;
+}
+
+a:hover{
+    background:pink;
+    color:black;
+    border-radius:5px;
+}
+
+.menu{
+    text-align:center;
+    margin:20px;
+}
+
+.box{
+    width:75%;
+    background:white;
+    margin:30px auto;
+    padding:20px;
+    border:3px solid green;
+}
+
+#logo{
+    border:4px solid red;
+    border-radius:50%;
+    margin-top:20px;
+}
+
+fieldset{
+    width:60%;
+    margin:auto;
+    background:white;
+    border:3px solid green;
+    padding:20px;
+}
+
+legend{
+    color:darkgreen;
+    font-size:20px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:90%;
+    padding:8px;
+    margin-top:5px;
+}
+
+input[type=radio]{
+    width:auto;
+}
+
+input[type=submit]{
+    width:120px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+}
+
+input[type=reset]{
+    width:120px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+}
+
+.featureBox{
+    width:70%;
+    margin:auto;
+    background:white;
+    border:3px solid deeppink;
+    padding:20px;
+}
+
+.videoBox{
+    width:70%;
+    margin:auto;
+    text-align:center;
+}
+
+#offer{
+    width:70%;
+    margin:auto;
+    color:red;
+    background:yellow;
+    padding:12px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+#rating{
+    width:30%;
+    margin:auto;
+    background:white;
+    text-align:center;
+    padding:15px;
+    border:2px solid purple;
+}

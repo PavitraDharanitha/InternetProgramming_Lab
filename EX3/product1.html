@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chips & Juice Store</title>
+
+<style>
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/002/276/716/large_2x/abstract-geometric-background-in-flat-design-free-vector.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:darkgreen;
+    text-shadow:2px 2px 4px white;
+}
+
+h2{
+    color:brown;
+}
+
+marquee{
+    background:yellow;
+    color:red;
+    font-size:18px;
+    font-weight:bold;
+}
+
+table{
+    border-collapse:collapse;
+    background:white;
+}
+
+th{
+    background:orange;
+    color:white;
+}
+
+td{
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+    font-size:18px;
+    font-weight:bold;
+}
+
+a:hover{
+    color:red;
+}
+
+ul{
+    display:inline-block;
+    text-align:left;
+    background:white;
+}
+
+fieldset{
+    width:60%;
+    background:white;
+    border:3px solid green;
+    padding:20px;
+}
+
+legend{
+    color:darkgreen;
+    font-size:20px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:80%;
+    padding:8px;
+    font-size:16px;
+}
+
+input[type="radio"]{
+    width:auto;
+}
+
+input[type="submit"]{
+    width:120px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="reset"]{
+    width:120px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:darkgreen;
+}
+
+input[type="reset"]:hover{
+    background:darkred;
+}
+
+b i{
+    color:purple;
+    font-size:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<center>
+
+<h1><u>Chips & Juice Store</u></h1>
+
+<marquee behavior="alternate">
+<b>Today's Offer: Buy 2 Get 1 Free!</b>
+</marquee>
+
+<hr width="80%">
+
+<a href="index.html">Home</a> |
+<a href="login.html">Login</a> |
+<a href="register.html">Register</a>
+
+<hr width="80%">
+
+<h2>Our Products</h2>
+
+<table border="1" cellpadding="10">
+
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Lays Chips</td>
+<td>₹30</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Kurkure</td>
+<td>₹25</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Mango Juice</td>
+<td>₹40</td>
+<td>Available</td>
+</tr>
+
+<tr>
+<td>Orange Juice</td>
+<td>₹45</td>
+<td>Available</td>
+</tr>
+
+</table>
+
+<h2>Features</h2>
+
+<ul>
+<li>Fresh Products</li>
+<li>Best Quality</li>
+<li>Affordable Price</li>
+<li>Fast Delivery</li>
+<li>100% Hygienic</li>
+</ul>
+
+<br><br>
+
+<fieldset>
+
+<legend><b>Place Your Order</b></legend>
+
+<form>
+
+<label>Customer Name</label><br>
+<input type="text" placeholder="Enter your name"><br><br>
+
+<label>Email</label><br>
+<input type="email" placeholder="Enter your email"><br><br>
+
+<label>Phone Number</label><br>
+<input type="tel" placeholder="Enter your phone number"><br><br>
+
+<label>Select Product</label><br>
+
+<select>
+<option>Lays Chips</option>
+<option>Kurkure</option>
+<option>Mango Juice</option>
+<option>Orange Juice</option>
+</select>
+
+<br><br>
+
+<label>Quantity</label><br>
+<input type="number" min="1" max="10"><br><br>
+
+<label>Delivery Date</label><br>
+<input type="date"><br><br>
+
+<label>Payment Method</label><br>
+
+<input type="radio" name="pay"> Cash
+<input type="radio" name="pay"> UPI
+<input type="radio" name="pay"> Card
+
+<br><br>
+
+<label>Delivery Address</label><br>
+
+<textarea rows="4" cols="30"></textarea>
+
+<br><br>
+
+<input type="submit" value="Buy Now">
+<input type="reset" value="Clear">
+
+</form>
+
+</fieldset>
+
+<br>
+
+<h2>Customer Rating</h2>
+
+<meter value="4.8" min="0" max="5"></meter>
+<b>4.8 / 5</b>
+
+<br><br>
+
+<b><i>Thank You for Shopping with Us!</i></b>
+
+<br><br>
+
+<a href="index.html">← Back to Home</a>
+
+</center>
+
+</body>
+</html>
